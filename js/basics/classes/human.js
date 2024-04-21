@@ -39,18 +39,18 @@ class Human {
 
 class Person extends Human {
   constructor(name, age) {
-    super();
+    super(); // Call the parent class constructor
     this.name = name;
     this.age = age;
   }
   introduce() {
-    super.talk();
+    super.talk(); // Call the parent class method talk
     console.log(
       `Hello, my name is ${this.name} and I am ${this.age} years old.`
     );
   }
   listenToSomeone(person) {
-    super.hear();
+    super.hear(); // Call the parent class method hear
     console.log(`${this.name} is listening to`, person.name);
   }
 }
