@@ -34,7 +34,16 @@ export default function createHuman() {
   function think() {
     console.log("Thinking...", `using ${brain} brain`);
   }
+
   return {
+    brain,
+    legs,
+    arms,
+    eyes,
+    ears,
+    mouth,
+    nose,
+    bones,
     walk,
     talk,
     see,

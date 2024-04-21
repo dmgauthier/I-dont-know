@@ -9,6 +9,7 @@ export default function createPerson(name, age) {
     human.talk();
     console.log(`Hello, my name is ${name} and I am ${age} years old.`);
   }
+  
   function listenToSomeone(person) {
     human.hear();
     console.log(`${name} is listening to`, person.name);
