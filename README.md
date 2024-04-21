@@ -1,2 +1,2 @@
-# I-dont-know-TS-JS
-Exercises with Javascript and Typescript
+# I-dont-know
+Programming exercises
