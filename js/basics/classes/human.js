@@ -1,3 +1,5 @@
+"use strict";
+
 class Human {
   constructor() {
     this.brain = 1;
